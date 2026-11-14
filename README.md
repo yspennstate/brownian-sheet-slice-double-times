@@ -10,7 +10,8 @@ slice has Hausdorff dimension zero when d is 4 or 5.
 
 The paper proves that it does. Almost surely, for every s > 0, the set of pairs u != v with
 B(s, u) = B(s, v) has Hausdorff dimension zero, and its part in a product of two disjoint compact
-intervals has upper box dimension zero. The proof bounds high moments of the number of
+intervals has upper box dimension zero. For d = 5 both statements also follow from the finiteness of
+these sets stated in K. Chen's EPFL thesis (2026); the new case is d = 4. The proof bounds high moments of the number of
 near-coincidences on a grid, using a conditional variance bound obtained from Brownian bridges, and
 takes a union over a grid of slices whose cost is absorbed by the choice of the moment.
 
